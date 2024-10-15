@@ -1,0 +1,42 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+header h1{
+    margin: 0px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+.divider{
+    margin: 32px;
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+}
+.card{
+    font-family: Helvetica, sans-serif;
+    font-size: large;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 40%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
